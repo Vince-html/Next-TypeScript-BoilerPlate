@@ -17,7 +17,7 @@
     }
   },
   "lint-staged": {
-    ".ts(x)": [
+    ".tsx": [
       "yarn lint --fix ", "yarn test --bail"
     ]
   },
