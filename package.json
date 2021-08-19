@@ -11,16 +11,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.tsx": [
-      "yarn lint --fix ", "yarn test --bail"
-    ]
-  },
+
   "dependencies": {
     "next": "11.1.0",
     "react": "17.0.2",
